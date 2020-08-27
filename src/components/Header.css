@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  color: white;
+  padding: 1rem;
+  align-items: center;
+  overflow-x: scroll;
+  justify-content: space-between;
+}
+.header-icon--active > p {
+  display: inline-flex !important;
+}
+.header-icons {
+  flex: 0.6;
+  display: flex;
+  justify-content: space-between;
+}
+.header-icon > .MultiSvgIcon-root {
+  font: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-icon {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.header-icon > p {
+  display: none;
+}
+.header-icon:hover > p {
+  display: inline-flex;
+}
+.header-logo {
+  display: flex;
+  justify-: right;
+}
